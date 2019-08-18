@@ -21,13 +21,6 @@ const buttonSave = document.querySelector('.button__item--save-js');
 const buttonLoad = document.querySelector('.button__item--load-js');
 const buttonRemove = document.querySelector('.button__item--remove-js');
 
-console.log(buttonLoad);
-
-// textbox.addEventListener('keyup', (e) => {
-//   localStorage.setItem('textbox', e.target.value);
-// });
-// localStorage.removeItem('textbox');
-
 buttonSave.addEventListener('click', (e) => {
   localStorage.setItem('textbox', textbox.value);
 });
