@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Notebook</title>
+	<meta name="description" content="Description" />
+	<link rel="manifest" href="manifest.json" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+	<main class="notebook">
+		<header class="header">
+			<h1 class="header__title">Notebook WTF</h1>
+		</header>
+
+		<section class="textarea">
+			<label for="notebook"></label>
+			<textarea class="textarea__box textarea__box--js" name="notebook" id="notebook"></textarea>
+		</section>
+
+		<section class="button">
+			<button class="button__item button__item--save button__item--save-js" aria-label="Save text wrtiten in textbox to local storage">SAVE</button>
+			<button class="button__item button__item--load button__item--load-js" aria-label="Load text to textbox from local storage">LOAD</button>
+			<button class="button__item button__item--remove button__item--remove-js" aria-label="Remove text from local storage">REMOVE</button>
+		</section>
+	</main>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
