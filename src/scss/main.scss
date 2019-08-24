@@ -17,10 +17,12 @@ body {
 
 .notebook {
   margin: 32px auto;
-  max-width: 1000px;
+  max-width: 80vw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+
 }
 
 .textarea{
@@ -43,68 +45,11 @@ body {
 
 .button {
   display: flex;
-  flex-wrap: nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-  max-width: 600px;
     &__item {
     width: 100px;
     height: 48px;
     font-size: 14px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .notebook {
-//   max-width: 900px;
-//   height: 500px;
-//   margin: 32px auto;
-  // display: grid;
-  // grid-template-columns: repeat(5, 1fr);
-  // grid-template-rows: repeat(5, 1fr);
-  // grid-template-areas:
-  //   ". header header header ."
-  //   ". textarea textarea textarea ."
-  //   ". textarea textarea textarea ."
-  //   ". textarea textarea textarea ."
-  //   ". button button button .";
-// }
-
-// .header {
-//   grid-area: header;
-//   text-align: center;
-//   margin: auto auto;
-// }
-
-// .textarea {
-//   grid-area: textarea;
-//   min-width: max-content;
-//   min-height: max-content;
-// }
-
-// .textarea__box {
-// height: auto;
-// }
-
-// .button {
-//   grid-area: button;
-
-// }
