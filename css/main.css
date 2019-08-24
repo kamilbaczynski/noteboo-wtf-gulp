@@ -321,7 +321,7 @@ body {
 
 .notebook {
   margin: 32px auto;
-  max-width: 1000px;
+  max-width: 80vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -329,6 +329,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -354,12 +357,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 600px; }
+          justify-content: space-between; }
   .button__item {
     width: 100px;
     height: 48px;
