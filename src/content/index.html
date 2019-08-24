@@ -12,26 +12,26 @@
 </head>
 
 <body>
-	<main class="main">
-		<form class="notebook">
-			<header class="header">
-				<h1 class="header__title">Notebook WTF</h1>
-			</header>
+	<main class="notebook">
+		
+		<header class="header">
+			<h1 class="header__title">Notebook WTF</h1>
+		</header>
 
-			<p class="textarea">
-				<label for="notebook"></label>
-				<textarea class="textarea__box textarea__box--js" name="notebook" id="notebook"></textarea>
-			</p>
-
-			<div class="button">
-				<button class="button__item button__item--save button__item--save-js"
-					aria-label="Save text wrtiten in textbox to local storage">SAVE</button>
-				<button class="button__item button__item--load button__item--load-js"
-					aria-label="Load text to textbox from local storage">LOAD</button>
-				<button class="button__item button__item--remove button__item--remove-js"
-					aria-label="Remove text from local storage">REMOVE</button>
-			</div>
+		<form class="textarea">
+			<label class="textarea__label" for="notebook"></label>
+			<textarea class="textarea__box textarea__box--js" name="notebook" id="notebook"></textarea>
 		</form>
+
+		<div class="button">
+			<button class="button__item button__item--save button__item--save-js"
+				aria-label="Save text wrtiten in textbox to local storage">SAVE</button>
+			<button class="button__item button__item--load button__item--load-js"
+				aria-label="Load text to textbox from local storage">LOAD</button>
+			<button class="button__item button__item--remove button__item--remove-js"
+				aria-label="Remove text from local storage">REMOVE</button>
+		</div>
+
 	</main>
 
 	<script src="js/main.js"></script>
